@@ -1,0 +1,1 @@
+cl.exe /Zi /EHsc /Fe: %1 *.cpp

@@ -22,6 +22,21 @@
 				"kind": "build",
 				"isDefault": true
 			}
-		}
+		},
+		{
+            "type": "shell",
+            "label": "C/C++: cl.exe build current directory files",
+            "command": "..\\.vscode\\compileAll.bat",
+            "args": [
+                "${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build"
+        }
 	]
 }
