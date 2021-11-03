@@ -26,7 +26,7 @@
 		{
             "type": "shell",
             "label": "C/C++: cl.exe build current directory files",
-            "command": "..\\.vscode\\compileAll.bat",
+            "command": "${workspaceFolder}\\.vscode\\compileAll.bat",
             "args": [
                 "${fileBasenameNoExtension}.exe"
             ],
